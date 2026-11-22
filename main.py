@@ -1,4 +1,8 @@
-from utils.calculator import add_nums
+from utils.calculator import add_nums, divide_nums
 
 if __name__=="__main__":
-    print (add_nums(1,3))
+    print ("Addition:",add_nums(1,3))
+    print("Division:", divide_nums(4,2))
+    print("Subtraction:", subtract_nums(5,2))
+    print("Multiplication:", multiply_nums(3,4))
+    print("Power:", power_nums(2,3))
